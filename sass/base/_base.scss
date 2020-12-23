@@ -1,0 +1,25 @@
+//шрифты
+//для заголовков
+//font-family: 'Montserrat', Arial, sans-serif;
+//для текста
+//font-family: 'Source Sans Pro', Arial, sans-serif;
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: $font-sanspro;
+    color: $color-text;
+}
+
+a {
+    text-decoration: none;
+    color: $color-text;
+}
+
+ul {
+    list-style: none;
+}
+

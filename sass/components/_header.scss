@@ -1,0 +1,40 @@
+.header__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header__logo {
+    flex-basis: 250px;
+    padding: 0 5px 0 10px;
+}
+
+.header__info {
+    flex-basis: 1;
+    border-left: 1px solid $color-primary;
+}
+
+.header__info p {
+    font-family: $font-montserrat;
+    font-size: 1.2em;
+    line-height: 0.9em;
+    padding-left: 20px;
+}
+
+.header__contacts {
+    flex-grow: 1;
+    text-align: end;
+    padding: 0 20px 0 10px;    
+}
+
+.header__contacts a {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    font-weight: bold    ;
+    &:hover {
+        color: $color-additional;
+        transition: all 0.3s ease-out;
+    }
+}
