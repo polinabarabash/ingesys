@@ -1,0 +1,11 @@
+.mainblock__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.mainblock__content {
+    padding: 15px 15px 15px 0;
+}

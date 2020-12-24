@@ -4,13 +4,15 @@
 @import "./abstract/constants";
 
 //base
-@import "./base/logo";
 @import "./base/base";
+@import "./base/logo";
 @import "./base/icons";
 
 //components
 @import "./components/header";
-@import "./components/navigation";
+@import "./components/top-navigation";
+@import "./components/mainblock";
+@import "./components/left-navigation";
 
 //layouts
 @import "./layouts/wrapper";

@@ -1,0 +1,33 @@
+.left-navigation {
+    padding: 10px 15px 15px 15px;
+}
+
+.left-navigation h5 {
+    color: $color-primary;
+    padding: 5px 0 5px 0;
+    border-bottom: 1px solid $color-text;
+    &:hover {
+        color: $color-additional;
+        border-bottom: 1px solid $color-additional;
+        transition: all 0.5s ease-out;
+    }    
+    &:active {
+        color: $color-additional;
+        border-bottom: 1px solid $color-additional;
+    }
+}
+
+.left-navigation li {
+    padding-top: 5px;
+}
+
+.left-navigation li a {    
+    font-size: 1.6rem;
+    &:hover {
+        font-weight: bold;
+        transition: all 0.5s ease-out;
+    }
+    &:active {
+        font-weight: bold;
+    }
+}

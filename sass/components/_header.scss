@@ -18,8 +18,8 @@
 
 .header__info p {
     font-family: $font-montserrat;
-    font-size: 1.2em;
-    line-height: 0.9em;
+    font-size: 2.0rem;
+    line-height: 2.0rem;
     padding-left: 20px;
 }
 
@@ -30,8 +30,8 @@
 }
 
 .header__contacts a {
-    font-size: 1.2em;
-    line-height: 1.4em;
+    font-size: 2.0rem;
+    line-height: 2.8rem;
     font-weight: bold    ;
     &:hover {
         color: $color-additional;

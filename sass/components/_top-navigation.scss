@@ -1,21 +1,19 @@
-.navigation {
+.top-navigation ul {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    //border-top: 1px solid $color-primary;
-    //border-bottom: 1px solid $color-primary;
     background-color: $color-primary;
 }
 
-.navigation li {
+.top-navigation ul li {
     padding: 10px 0 10px 0;    
 }
 
-.navigation li a {  
+.top-navigation ul li a {  
     font-weight: bold; 
-    font-size: 1.2em;
+    font-size: 1.9rem;
     color: white;
     &:hover {
         color: $color-additional;
