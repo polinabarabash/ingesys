@@ -1,0 +1,45 @@
+.product {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;       
+    justify-content: space-between;
+    overflow: hidden;
+    padding-top: 15px;
+}
+
+.product__item {
+   width: 32%;
+   height: 250px;   
+   overflow: hidden;
+   margin-bottom: 15px;
+}
+
+.item-img {
+    max-width: 250px;   
+}
+
+.item-model {
+    width: 100%;
+    padding: 5px 0;
+    font-weight: bold;
+    color: $color-primary;   
+    white-space: nowrap;  
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.item-description {        
+    -webkit-line-clamp: 3; /* Число отображаемых строк */
+    display: -webkit-box; /* Включаем флексбоксы */
+    -webkit-box-orient: vertical; /* Вертикальная ориентация */
+    overflow: hidden; 
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.item-price {
+    font-weight: bold;
+    color: $color-additional;
+    font-size: 2.2rem;
+    padding-left: 15px;
+}

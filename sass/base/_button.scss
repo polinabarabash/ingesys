@@ -1,0 +1,12 @@
+.item-button a {
+    display: inline-block;
+    padding: 8px 10px;
+    background: $color-primary;
+    color: white;   
+    border-radius: 5px; 
+    font-size: 1.8rem;
+    &:hover {
+        background-color: $color-additional;
+        transition: all 1000ms ease-out;
+    }
+}

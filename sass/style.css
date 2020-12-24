@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -356,6 +357,7 @@ body {
 a {
   text-decoration: none;
   color: #5d5f67;
+  cursor: pointer;
 }
 
 ul {
@@ -382,6 +384,11 @@ h5 {
   font-size: 2.2rem;
 }
 
+button {
+  border-width: 0px;
+  border-color: none;
+}
+
 .header__logo img {
   width: 250px;
 }
@@ -402,6 +409,19 @@ h5 {
 
 .email {
   background-image: url(../img/icons/email.png);
+}
+
+.item-button a {
+  display: inline-block;
+  padding: 8px 10px;
+  background: #536ea5;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.8rem;
+}
+.item-button a:hover {
+  background-color: #b03939;
+  transition: all 1000ms ease-out;
 }
 
 .header__wrapper {
@@ -462,12 +482,12 @@ h5 {
   font-weight: bold;
   font-size: 1.9rem;
   color: white;
+  padding: 0 10px;
 }
 .top-navigation ul li a:hover {
   color: #b03939;
-  transition: all 0.5s ease-out;
-  cursor: pointer;
   border-bottom: 1px solid #b03939;
+  transition: all 0.5s ease-out;
 }
 
 .mainblock__wrapper {
@@ -514,6 +534,55 @@ h5 {
 }
 .left-navigation li a:active {
   font-weight: bold;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+  padding-top: 15px;
+}
+
+.product__item {
+  width: 32%;
+  height: 250px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.item-img {
+  max-width: 250px;
+}
+
+.item-model {
+  width: 100%;
+  padding: 5px 0;
+  font-weight: bold;
+  color: #536ea5;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.item-description {
+  -webkit-line-clamp: 3;
+  /* Число отображаемых строк */
+  display: -webkit-box;
+  /* Включаем флексбоксы */
+  -webkit-box-orient: vertical;
+  /* Вертикальная ориентация */
+  overflow: hidden;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.item-price {
+  font-weight: bold;
+  color: #b03939;
+  font-size: 2.2rem;
+  padding-left: 15px;
 }
 
 .page {
