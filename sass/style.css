@@ -411,15 +411,15 @@ button {
   background-image: url(../img/icons/email.png);
 }
 
-.item-button a {
-  display: inline-block;
-  padding: 8px 10px;
+.item-button {
+  display: block;
+  padding: 5px 0px;
   background: #536ea5;
   color: white;
-  border-radius: 5px;
   font-size: 1.8rem;
+  text-align: center;
 }
-.item-button a:hover {
+.item-button:hover {
   background-color: #b03939;
   transition: all 1000ms ease-out;
 }
@@ -485,9 +485,8 @@ button {
   padding: 0 10px;
 }
 .top-navigation ul li a:hover {
-  color: #b03939;
-  border-bottom: 1px solid #b03939;
-  transition: all 0.5s ease-out;
+  border-bottom: 1px solid white;
+  transition: all 0.5s ease;
 }
 
 .mainblock__wrapper {
@@ -499,11 +498,11 @@ button {
 }
 
 .mainblock__content {
-  padding: 15px 15px 15px 0;
+  padding: 45px 15px 15px 45px;
 }
 
 .left-navigation {
-  padding: 10px 15px 15px 15px;
+  padding: 5px 0px 15px 15px;
 }
 
 .left-navigation h5 {
@@ -547,7 +546,7 @@ button {
 
 .product__item {
   width: 32%;
-  height: 250px;
+  height: 270px;
   overflow: hidden;
   margin-bottom: 15px;
 }
@@ -575,14 +574,14 @@ button {
   /* Вертикальная ориентация */
   overflow: hidden;
   text-align: justify;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .item-price {
   font-weight: bold;
   color: #b03939;
-  font-size: 2.2rem;
-  padding-left: 15px;
+  font-size: 2rem;
+  padding-bottom: 5px;
 }
 
 .page {

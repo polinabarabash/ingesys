@@ -9,7 +9,7 @@
 
 .product__item {
    width: 32%;
-   height: 250px;   
+   height: 270px;   
    overflow: hidden;
    margin-bottom: 15px;
 }
@@ -34,12 +34,12 @@
     -webkit-box-orient: vertical; /* Вертикальная ориентация */
     overflow: hidden; 
     text-align: justify;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .item-price {
     font-weight: bold;
     color: $color-additional;
-    font-size: 2.2rem;
-    padding-left: 15px;
+    font-size: 2.0rem;  
+    padding-bottom: 5px;   
 }

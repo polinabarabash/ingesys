@@ -1,10 +1,10 @@
-.item-button a {
-    display: inline-block;
-    padding: 8px 10px;
+.item-button {    
+    display: block;
+    padding: 5px 0px;   
     background: $color-primary;
-    color: white;   
-    border-radius: 5px; 
+    color: white;       
     font-size: 1.8rem;
+    text-align: center;
     &:hover {
         background-color: $color-additional;
         transition: all 1000ms ease-out;
