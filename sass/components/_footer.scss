@@ -1,0 +1,39 @@
+.footer__content {
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.footer__item {
+    width: 33%;
+}
+
+.footer__item:nth-child(1), :nth-child(2) {
+    padding-right: 15px;
+}
+
+.footer__item h5 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+    margin-bottom: 8px;
+}
+
+.footer__item li:hover {
+    font-weight: bold;
+}
+
+.footer__copyright {
+    width: 100%;
+    background-color: darkgray; 
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 10px 0;       
+}
+
+.footer__copyright a {
+    text-transform: uppercase;    
+}
