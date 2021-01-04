@@ -1,5 +1,5 @@
-.footer__content {
-    background-color: lightgray;
+.footer__content {    
+    background-color: #edeeef;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -12,8 +12,12 @@
     width: 33%;
 }
 
-.footer__item:nth-child(1), :nth-child(2) {
-    padding-right: 15px;
+.footer__item:nth-child(1) {
+    padding-right: 15px;    
+}
+
+.footer__item:nth-child(2) {
+    padding-right: 15px;    
 }
 
 .footer__item h5 {
@@ -28,7 +32,7 @@
 
 .footer__copyright {
     width: 100%;
-    background-color: darkgray; 
+   background-color: #c8c9ca;
     text-align: center;
     font-size: 1.8rem;
     padding: 10px 0;       
