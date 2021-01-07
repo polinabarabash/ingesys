@@ -492,10 +492,6 @@ button {
 
 .mainblock__wrapper {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: start;
 }
 
 .mainblock__content {
@@ -643,6 +639,22 @@ button {
 .old-price {
   text-decoration-line: line-through;
   padding-right: 5px;
+}
+
+.contacts__item {
+  padding: 5px 0;
+  font-size: 1.8rem;
+}
+
+.contacts__item a:hover {
+  font-weight: bold;
+}
+
+.map {
+  height: 300px;
+  background: lightblue;
+  width: 776px;
+  margin: 15px 0;
 }
 
 .footer__content {
