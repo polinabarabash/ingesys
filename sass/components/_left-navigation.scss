@@ -1,6 +1,8 @@
 .left-navigation {
     padding: 5px 0px 15px 15px;
     //width: 19%;
+    flex-basis: 100%;
+    flex-shrink: 5;
 }
 
 .left-navigation h5 {
