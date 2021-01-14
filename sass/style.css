@@ -349,7 +349,7 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-family: "Source Sans Pro", Arial, sans-serif;
   color: #5d5f67;
 }
@@ -365,24 +365,24 @@ ul {
 }
 
 h1 {
-  font-size: 3.8rem;
+  font-size: 4.2rem;
   padding-bottom: 15px;
 }
 
 h2 {
-  font-size: 3.4rem;
+  font-size: 3.8rem;
 }
 
 h3 {
-  font-size: 3rem;
+  font-size: 3.4rem;
 }
 
 h4 {
-  font-size: 2.6rem;
+  font-size: 3rem;
 }
 
 h5 {
-  font-size: 2.2rem;
+  font-size: 2.6rem;
 }
 
 button {
@@ -391,7 +391,7 @@ button {
 }
 
 .header__logo img {
-  width: 250px;
+  width: 270px;
 }
 
 .header__ico {
@@ -401,7 +401,7 @@ button {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
-  padding: 0 0 0 30px;
+  padding: 0 0 0 40px;
 }
 
 .phone {
@@ -434,7 +434,7 @@ button {
 }
 
 .header__logo {
-  flex-basis: 250px;
+  flex-basis: 270px;
   padding: 0 5px 0 10px;
 }
 
@@ -457,8 +457,8 @@ button {
 }
 
 .header__contacts a {
-  font-size: 2rem;
-  line-height: 2.8rem;
+  font-size: 2.6rem;
+  line-height: 3.6rem;
   font-weight: bold;
 }
 .header__contacts a:hover {
@@ -476,12 +476,12 @@ button {
 }
 
 .top-navigation ul li {
-  padding: 10px 0 10px 0;
+  padding: 12px 0 12px 0;
 }
 
 .top-navigation ul li a {
   font-weight: bold;
-  font-size: 1.9rem;
+  font-size: 2.6rem;
   color: white;
   padding: 0 10px;
 }
@@ -520,12 +520,12 @@ button {
   border-bottom: 1px solid #b03939;
 }
 
-.left-navigation li {
+.left-navigation li:nth-child(1) {
   padding-top: 5px;
 }
 
 .left-navigation li a {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 .left-navigation li a:hover {
   font-weight: bold;
@@ -546,13 +546,11 @@ button {
 
 .product__item {
   width: 32%;
-  height: 270px;
-  overflow: hidden;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .item-img {
-  max-width: 250px;
+  max-width: 314px;
 }
 
 .item-model {
@@ -703,13 +701,13 @@ button {
 }
 
 .page {
-  max-width: 1020px;
+  max-width: 1920px;
   margin: 0 auto;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .wrapper {
-  max-width: 1020px;
+  max-width: 1920px;
   margin: 0 auto;
 }
 
