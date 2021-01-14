@@ -349,7 +349,7 @@ html {
 }
 
 body {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "Source Sans Pro", Arial, sans-serif;
   color: #5d5f67;
 }
@@ -365,24 +365,24 @@ ul {
 }
 
 h1 {
-  font-size: 4.2rem;
-  padding-bottom: 15px;
+  font-size: 5.6rem;
+  padding: 20px 0;
 }
 
 h2 {
-  font-size: 3.8rem;
+  font-size: 5.2rem;
 }
 
 h3 {
-  font-size: 3.4rem;
+  font-size: 4.8rem;
 }
 
 h4 {
-  font-size: 3rem;
+  font-size: 4.4rem;
 }
 
 h5 {
-  font-size: 2.6rem;
+  font-size: 4rem;
 }
 
 button {
@@ -390,10 +390,9 @@ button {
   border-color: none;
 }
 
-.header__logo img {
-  width: 270px;
-}
-
+/*.header__logo img {
+    width: 480px;
+}*/
 .header__ico {
   width: 20px;
   height: 20px;
@@ -401,7 +400,7 @@ button {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
-  padding: 0 0 0 40px;
+  padding: 0 0 0 60px;
 }
 
 .phone {
@@ -414,11 +413,12 @@ button {
 
 .item-button {
   display: block;
-  padding: 5px 0px;
+  padding: 10px 0px;
   background: #536ea5;
   color: white;
-  font-size: 1.8rem;
+  font-size: 3.2rem;
   text-align: center;
+  letter-spacing: 3px;
 }
 .item-button:hover {
   background-color: #b03939;
@@ -434,31 +434,34 @@ button {
 }
 
 .header__logo {
-  flex-basis: 270px;
-  padding: 0 5px 0 10px;
+  flex-basis: 480px;
+  padding: 0 5px 0 20px;
+}
+
+.header__logo img {
+  width: 480px;
 }
 
 .header__info {
-  flex-basis: 1;
   border-left: 1px solid #536ea5;
 }
 
 .header__info p {
   font-family: "Montserrat", Arial, sans-serif;
-  font-size: 2rem;
-  line-height: 2rem;
-  padding-left: 20px;
+  font-size: 3.8rem;
+  line-height: 3.8rem;
+  padding-left: 33px;
 }
 
 .header__contacts {
   flex-grow: 1;
   text-align: end;
-  padding: 0 20px 0 10px;
+  padding: 0 30px 0 10px;
 }
 
 .header__contacts a {
-  font-size: 2.6rem;
-  line-height: 3.6rem;
+  font-size: 4rem;
+  line-height: 5.6rem;
   font-weight: bold;
 }
 .header__contacts a:hover {
@@ -476,12 +479,12 @@ button {
 }
 
 .top-navigation ul li {
-  padding: 12px 0 12px 0;
+  padding: 20px 0 20px 0;
 }
 
 .top-navigation ul li a {
   font-weight: bold;
-  font-size: 2.6rem;
+  font-size: 3.6rem;
   color: white;
   padding: 0 10px;
 }
@@ -495,12 +498,12 @@ button {
 }
 
 .mainblock__content {
-  padding: 45px 15px 15px 45px;
+  padding: 20px 30px 30px 20px;
   flex-basis: 100%;
 }
 
 .left-navigation {
-  padding: 5px 0px 15px 15px;
+  padding: 20px 30px 30px 30px;
   flex-basis: 100%;
   flex-shrink: 5;
 }
@@ -521,11 +524,11 @@ button {
 }
 
 .left-navigation li:nth-child(1) {
-  padding-top: 5px;
+  padding-top: 8px;
 }
 
 .left-navigation li a {
-  font-size: 1.8rem;
+  font-size: 2.6rem;
 }
 .left-navigation li a:hover {
   font-weight: bold;
@@ -545,17 +548,18 @@ button {
 }
 
 .product__item {
-  width: 32%;
-  margin-bottom: 25px;
+  width: 31%;
+  margin-bottom: 65px;
+  overflow: hidden;
 }
 
 .item-img {
-  max-width: 314px;
+  max-width: 460px;
 }
 
 .item-model {
   width: 100%;
-  padding: 5px 0;
+  padding: 15px 0;
   font-weight: bold;
   color: #536ea5;
   white-space: nowrap;
@@ -572,18 +576,19 @@ button {
   /* Вертикальная ориентация */
   overflow: hidden;
   text-align: justify;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
+  font-size: 2.8rem;
 }
 
 .item-price {
   font-weight: bold;
   color: #b03939;
-  font-size: 2rem;
-  padding-bottom: 5px;
+  font-size: 4rem;
+  padding-bottom: 25px;
 }
 
 .sale {
-  padding: 15px;
+  padding: 30px;
 }
 
 .sale h4 {
@@ -591,7 +596,7 @@ button {
 }
 
 .sale__product {
-  padding: 15px 45px 15px 45px;
+  padding: 30px 45px 30px 45px;
   display: flex;
   justify-content: space-between;
   overflow: hidden;
@@ -603,7 +608,7 @@ button {
 }
 
 .sale-img {
-  max-width: 180px;
+  max-width: 350px;
 }
 
 .sale-model {
@@ -614,7 +619,7 @@ button {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 1.4rem;
+  font-size: 2.4rem;
 }
 
 .sale-description {
@@ -627,13 +632,13 @@ button {
   overflow: hidden;
   text-align: justify;
   margin-bottom: 5px;
-  font-size: 1.2rem;
+  font-size: 2.2rem;
 }
 
 .sale-price {
   font-weight: bold;
   color: #b03939;
-  font-size: 1.4rem;
+  font-size: 2.4rem;
   padding-bottom: 5px;
 }
 
@@ -644,7 +649,6 @@ button {
 
 .contacts__item {
   padding: 5px 0;
-  font-size: 1.8rem;
 }
 
 .contacts__item a:hover {
@@ -652,8 +656,7 @@ button {
 }
 
 .map {
-  height: 300px;
-  margin: 15px 0;
+  margin: 40px 0;
 }
 
 .footer__content {
@@ -663,7 +666,7 @@ button {
   flex-direction: row;
   align-items: start;
   justify-content: space-between;
-  padding: 15px;
+  padding: 30px;
 }
 
 .footer__item {
@@ -671,11 +674,11 @@ button {
 }
 
 .footer__item:nth-child(1) {
-  padding-right: 15px;
+  padding-right: 30px;
 }
 
 .footer__item:nth-child(2) {
-  padding-right: 15px;
+  padding-right: 30px;
 }
 
 .footer__item h5 {
@@ -692,8 +695,8 @@ button {
   width: 100%;
   background-color: #c8c9ca;
   text-align: center;
-  font-size: 1.8rem;
-  padding: 10px 0;
+  font-size: 3rem;
+  padding: 20px 0;
 }
 
 .footer__copyright a {

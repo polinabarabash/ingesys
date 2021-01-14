@@ -5,7 +5,7 @@
     flex-direction: row;
     align-items: start;
     justify-content: space-between;
-    padding: 15px;
+    padding: 30px;
 }
 
 .footer__item {
@@ -13,11 +13,11 @@
 }
 
 .footer__item:nth-child(1) {
-    padding-right: 15px;    
+    padding-right: 30px;    
 }
 
 .footer__item:nth-child(2) {
-    padding-right: 15px;    
+    padding-right: 30px;    
 }
 
 .footer__item h5 {
@@ -34,8 +34,8 @@
     width: 100%;
    background-color: #c8c9ca;
     text-align: center;
-    font-size: 1.8rem;
-    padding: 10px 0;       
+    font-size: 3.0rem;
+    padding: 20px 0;       
 }
 
 .footer__copyright a {

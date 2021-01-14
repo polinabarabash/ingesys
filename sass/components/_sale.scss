@@ -1,5 +1,5 @@
 .sale {
-    padding: 15px;
+    padding: 30px;
 }
 
 .sale h4 {
@@ -7,7 +7,7 @@
 }
 
 .sale__product {   
-    padding: 15px 45px 15px 45px;
+    padding: 30px 45px 30px 45px;
     display: flex; 
     justify-content: space-between;
     overflow: hidden;
@@ -19,7 +19,7 @@
 }
 
 .sale-img {
-    max-width: 180px;   
+    max-width: 350px;   
 }
 
 .sale-model {
@@ -30,7 +30,7 @@
     white-space: nowrap;  
     overflow: hidden; 
     text-overflow: ellipsis;   
-    font-size: 1.4rem;     
+    font-size: 2.4rem;     
 }
 
 .sale-description {       
@@ -40,13 +40,13 @@
     overflow: hidden; 
     text-align: justify;
     margin-bottom: 5px;
-    font-size: 1.2rem;
+    font-size: 2.2rem;
 }
 
 .sale-price {
     font-weight: bold;
     color: $color-additional;
-    font-size: 1.4rem;  
+    font-size: 2.4rem;  
     padding-bottom: 5px;       
 }
 

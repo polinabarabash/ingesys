@@ -8,17 +8,18 @@
 }
 
 .product__item {
-   width: 32%;        
-   margin-bottom: 25px;
+   width: 31%;        
+   margin-bottom: 65px;
+   overflow: hidden;
 }
 
 .item-img {
-    max-width: 314px;   
+    max-width: 460px;   
 }
 
 .item-model {
     width: 100%;
-    padding: 5px 0;
+    padding: 15px 0;
     font-weight: bold;
     color: $color-primary;   
     white-space: nowrap;  
@@ -32,12 +33,13 @@
     -webkit-box-orient: vertical; /* Вертикальная ориентация */
     overflow: hidden; 
     text-align: justify;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 2.8rem;
 }
 
 .item-price {
     font-weight: bold;
     color: $color-additional;
-    font-size: 2.0rem;  
-    padding-bottom: 5px;   
+    font-size: 4.0rem;  
+    padding-bottom: 25px;   
 }
